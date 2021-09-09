@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto';font-size: 22px;
+    background-color: #dddddd;
+}
+
+h1 {
+    padding: 2em;
+
+}
+
+#name {
+    background-color: #5E7599;
+    border-radius: 15px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 1em;
+
+  align-items: center;
+}
+
+.navlink {
+    float: left;
+    padding: 14px 16px;
+}
+
+.navlink:hover {
+    background-color: #000000;
+    color: white;
+}
