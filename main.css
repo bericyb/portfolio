@@ -1,6 +1,10 @@
+
+
+
 body {
     font-family: 'Roboto';font-size: 22px;
     background-color: #dddddd;
+    text-align: center;
 }
 
 h1 {
@@ -9,16 +13,22 @@ h1 {
 }
 
 #name {
+    clear: both;
+    display: flex;
+    justify-content: center;
     background-color: #5E7599;
     border-radius: 15px;
+
+}
+
+ul {
+    list-style-type: none;
 }
 
 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 1em;
-
-  align-items: center;
 }
 
 .navlink {
@@ -29,4 +39,14 @@ h1 {
 .navlink:hover {
     background-color: #000000;
     color: white;
+}
+
+.things {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subthings {
+    width: auto;
 }
